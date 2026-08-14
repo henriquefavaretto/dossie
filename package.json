@@ -1,0 +1,20 @@
+{
+  "name": "webmii-clone",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Metabuscador de pessoas: agrega resultados publicos da web e calcula um indice de visibilidade",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2",
+    "pdfjs-dist": "^6.2.108"
+  }
+}
